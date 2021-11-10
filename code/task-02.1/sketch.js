@@ -4,7 +4,7 @@ function setup() {
 
 function draw() {
   frameRate(10);
-  background(255);
+  background('lavender');
   noFill();
   stroke('red');
   strokeWeight(3);
@@ -19,8 +19,8 @@ function draw() {
     endShape();
 
     frameRate(5);
-  fill('lightblue');
-  stroke('blue');
+  fill('yellow');
+  stroke('yellow');
   strokeWeight(3);
 
     beginShape();
@@ -34,4 +34,3 @@ function draw() {
 
     
 }
-
