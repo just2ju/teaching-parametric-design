@@ -26,8 +26,8 @@ function draw() {
     beginShape();
   for(let angle = 0; angle < 360; angle += 15) {
     const radius = random(40, 80);
-    const x = radius * cos(Math.PI / 180 * angle);
-    const y = radius * sin(Math.PI / 180 * angle);
+    const x = radius * cos(Math.PI / 130 * angle);
+    const y = radius * sin(Math.PI / 110 * angle);
     curveVertex(x + 200, y + 200);
     }
     endShape();
