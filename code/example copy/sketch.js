@@ -1,19 +1,26 @@
-/*function setup() {
-  createCanvas(400, 400)
+const sketchWidth = 400;
+const sketchHeight = 400;
+
+function setup() {
+  createCanvas(sketchWidth, sketchHeight);
 }
 
 function draw() {
-  noLoop();
-  background(255);
-  noFill();
-  stroke(0);
-  strokeWeight(1);
+  background(100);
 
-  beginShape();
-curveVertex(0, 0);
-curveVertex(40, 0);
-curveVertex(40, 20);
-curveVertex(0, 20);
-endShape(CLOSE);
+  translate(sketchWidth/2,  sketchHeight/2);
+  
+}
+const sketchWidth = 400;
+const sketchHeight = 400;
 
-}*/
+function setup() {
+  createCanvas(sketchWidth, sketchHeight);
+}
+
+function draw() {
+  background(100);
+
+  translate(sketchWidth/2,  sketchHeight/2);
+  
+}
