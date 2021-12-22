@@ -6,7 +6,7 @@ const {union, subtract, intersect, scission} = jscad.booleans;
 const {translate, rotate, scale, center, align} = jscad.transforms;
 
 const main = () => {
-  const shape = cube({
+  const shape = rectangle({
     size: 10,
     center: [0, 0, 5]
   });
